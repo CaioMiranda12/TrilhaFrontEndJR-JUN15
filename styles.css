@@ -15,6 +15,11 @@ header {
     color: #fff;
 }
 
+.caio-image {
+    width: 150px;
+    border-radius: 80px;
+}
+
 .content {
     display: flex;
     align-items: center;
@@ -53,11 +58,6 @@ section p span {
     font-weight: 700;
 }
 
-img {
-    width: 200px;
-    border-radius: 80px;
-}
-
 footer {
     height: 100px;
     background-color: #e53939;
@@ -71,4 +71,63 @@ footer {
 
 footer a {
     color: #fff;
+}
+
+@media screen and (max-width: 950px ){
+    footer {
+        flex-direction: column;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    footer div {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .content {
+        justify-content: space-between;
+    }
+    
+    .content h1 {
+        font-size: 15px;
+    }
+
+    .content h2 {
+        font-size: 15px;
+    }
+
+    .caio-image {
+        width: 100px;
+    }
+
+    section p {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .caio-image {
+        width: 80px;
+    }
+    
+    section h2 {
+        font-size: 17px;
+    }
+
+    section p {
+        font-size: 11px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
 }

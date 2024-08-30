@@ -10,6 +10,8 @@ Este projeto tem como objetivo criar uma página web onde os candidatos podem se
 O projeto é uma breve apresentação sobre a minha pessoa e das minhas habilidades técnicas, em que no footer há links para Contato, GitHub e LinkedIn.
 Além disso, possui uma estrutura responsiva tanto para Desktop quanto para Mobile.
 
+Deploy: https://caiomiranda12.github.io/TrilhaFrontEndJR-JUN15/
+
 Tecnologias: HTML e CSS
 
 ### Desktop:

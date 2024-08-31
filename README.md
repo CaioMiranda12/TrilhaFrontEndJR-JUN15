@@ -3,6 +3,23 @@
 # 📚 Trilha Inicial Front-End Jr
 Este projeto tem como objetivo criar uma página web onde os candidatos podem se apresentar, compartilhar seus gostos pessoais e explicar por que desejam fazer parte da comunidade **Codigo Certo Coders** e participar de projetos voluntários.
 
+## Documentação do Projeto
+
+## Apresentação de Caio - CodigoCerto
+
+O projeto é uma breve apresentação sobre a minha pessoa e das minhas habilidades técnicas, em que no footer há links para Contato, GitHub e LinkedIn.
+Além disso, possui uma estrutura responsiva tanto para Desktop quanto para Mobile.
+
+Deploy: https://caiomiranda12.github.io/TrilhaFrontEndJR-JUN15/
+
+Tecnologias: HTML e CSS
+
+### Desktop:
+<img src="./assets/project.png" alt="imagem do projeto"/>
+
+### Mobile:
+<img src="./assets/projectMobile.png" alt="imagem do projeto mobile" />
+
 ## Estrutura da Página
 - **Foto:** Incluir uma foto pessoal.
 - **Informações Pessoais:** Nome completo e idade.

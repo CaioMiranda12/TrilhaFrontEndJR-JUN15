@@ -15,7 +15,7 @@ Deploy: https://caiomiranda12.github.io/TrilhaFrontEndJR-JUN15/
 Tecnologias: HTML e CSS
 
 ### Desktop:
-<img src="./assets/project.png" alt="imagem do projeto"/>
+<img src="./assets/projectweb.png" alt="imagem do projeto"/>
 
 ### Mobile:
 <img src="./assets/projectMobile.png" alt="imagem do projeto mobile" />

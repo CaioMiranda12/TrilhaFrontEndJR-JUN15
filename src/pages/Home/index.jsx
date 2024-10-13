@@ -46,6 +46,12 @@ export default function Home() {
         },
     ]
 
+    const breakPoints = [
+        { width: 1, itemsToShow: 1 },
+        { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+        { width: 850, itemsToShow: 3 },
+      ]
+
     return (
         <main>
             <section className="profile">
@@ -138,11 +144,11 @@ export default function Home() {
             <section className='projects'>
                 <h2>Principais Projetos</h2>
 
-                <Carousel itemsToShow={3}>
+                <Carousel breakPoints={breakPoints}>
                     {
                         projectsImg.map(item => (
                             <div className='project-item' key={item.link}>
-                                <a target='_blank' href={item.link} rel="noreferrer">
+                                <a href={item.link}>
                                     <img className='img-project' src={item.image} alt={item.altImg} />
                                 </a>
                                 <div className='project-content'>

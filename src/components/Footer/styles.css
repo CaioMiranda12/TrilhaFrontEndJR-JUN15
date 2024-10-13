@@ -1,7 +1,7 @@
 footer {
     padding: 40px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     border-top: 1px solid #fff;
     background-color: #000;
 }
@@ -14,6 +14,7 @@ footer {
 
 .footer-content div {
     display: flex;
+    align-items: center;
     gap: 10px;
 }
 
@@ -26,6 +27,13 @@ footer {
     color: #fff;
 }
 
-.footer-content div a {
-    color: #fff;
+.footer-midia {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 950px){
+    .footer-content {
+        padding: 10px;
+    }
 }

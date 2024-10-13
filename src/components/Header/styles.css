@@ -50,3 +50,9 @@ header h1 {
 header h2 span {
     color: #e53939;
 }
+
+@media (max-width: 950px) {
+    .header-links {
+        display: none;
+    }
+}

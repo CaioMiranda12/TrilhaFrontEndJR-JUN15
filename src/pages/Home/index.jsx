@@ -6,6 +6,7 @@ import devBillsImg from '../../assets/devb.png'
 import kingsBarberImg from '../../assets/KingsBarber.png'
 import travelBuddyImg from '../../assets/travelbuddy.png'
 import diarioDeTreinosImg from '../../assets/diario-treinos.png'
+import developerImg from '../../assets/developer-motivation.webp'
 
 import Carousel from 'react-elastic-carousel'
 
@@ -18,7 +19,6 @@ import { BiLogoTypescript } from "react-icons/bi";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { BsBootstrapFill } from "react-icons/bs";
 import { DiMongodb } from "react-icons/di";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -153,6 +153,27 @@ export default function Home() {
                         ))
                     }
                 </Carousel>
+            </section>
+
+            <section className='personal-tastes'>
+                <h2>Gostos Pessoais / Motivações</h2>
+
+                <div className='personal-tastes-content'>
+                    <img src={developerImg} alt='imagem de um programador'/>
+
+                    <p>
+                        Desde novo, sempre gostei de jogar <span>xadrez</span>, inclusive participei de diversos torneios inclusive um nacional. 
+                        Essa paixão por pensar e agir de forma estratégica me fez fortalecer minha base de estudos na programação. <br /> <br />
+
+                        Além disso, antes de programar, passei por períodos de profunda desmotivação, mas um dia disse pra mim mesmo que queria lutar contra isso,
+                        então comecei a estudar Desenvolvimento Web no curso DevClub, fazer atividades físicas e me envolver em comunidades de desenvolvedores, que tem contribuído
+                        bastante para a minha comunicação. <br/> <br />
+
+                        Com todos esses acontecimentos, tenho realizado cada vez mais projetos complexos na área de Desenvolvimento Web, tanto Front-End quanto Back-End. <br/> <br />
+
+                        O <span>CodigoCerto</span> me chamou atenção, pois como <span>voluntariado</span> posso realizar mais projetos e <span>trabalhar em equipe</span>, o que torna a programação mais produtiva.
+                    </p>
+                </div>
             </section>
         </main>
     )

@@ -10,7 +10,7 @@ export default function Header() {
                 <div class="header-links">
                     <a href="#">Inicio</a>
                     <a href="#">Sobre</a>
-                    <a href="#">Experiências</a>
+                    <a href="#">Projetos</a>
                     <a href="#">Gostos Pessoais</a>
                     <a href="#">Motivações</a>
                     <a href="#">Contato</a>

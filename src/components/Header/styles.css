@@ -20,16 +20,17 @@ header {
 .header-links {
     display: flex;
     gap: 30px;
-    
 }
 
-.header-links a {
+.header-links button {
+    border: none;
+    background-color: transparent;
     color: #fff;
-    text-decoration: none;
     font-size: 20px;
 
     &:hover {
         opacity: 0.8;
+        cursor: pointer;
     }
 
     &:active {
